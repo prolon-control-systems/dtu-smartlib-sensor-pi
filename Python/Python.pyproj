@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{e28b805b-fc30-4feb-a45a-5320eb475016}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>iothub_client_args.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="grovepi.py" />
+    <Compile Include="iothub_client_args.py" />
+    <Compile Include="iothub_client_cert.py" />
+    <Compile Include="iotClient.py" />
+    <Compile Include="iothub_client_sample.py" />
+    <Compile Include="iothub_client_sample_class.py" />
+    <Compile Include="iothub_client_sample_x509.py" />
+    <Compile Include="iothub_client_shared_transport_sample.py" />
+    <Compile Include="iothub_devicetwin_sample.py" />
+    <Compile Include="script.py" />
+    <Compile Include="script2.py" />
+    <Compile Include="script3 - Copy.py" />
+    <Compile Include="smartLibrary.2.0.0" />
+    <Compile Include="smartLibrary.1.0.3" />
+    <Compile Include="smartLibrary.1.0.2" />
+    <Compile Include="smartLibrary.1.0.1" />
+    <Compile Include="smartLibrary.1.0.0" />
+    <Compile Include="smartLibrary.py" />
+    <Compile Include="sensors.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Commands.txt" />
+    <Content Include="iothub_client.so" />
+    <Content Include="launcher.sh" />
+    <Content Include="setup.json" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

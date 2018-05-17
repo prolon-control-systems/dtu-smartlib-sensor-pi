@@ -1,0 +1,72 @@
+{
+  "sensors": [
+    {
+      "pointId": "US01",
+      "type": "ultraSound",
+      "readType": "ultrasound",
+      "unit": "cm",
+      "groveID": 2,
+      "delta": 20,
+      "checkValue": 0,
+      "value": 0,
+      "timestamp": 0,
+      "minTime": 5,
+      "maxTime": 60
+    },
+    {
+      "pointId": "TR01",
+      "type": "Temperature",
+      "readType": "dht",
+      "unit": "degree-celsius",
+      "groveID": 4,
+      "delta": 1,
+      "checkValue": 0,
+      "value": 0,
+      "timestamp": 0,
+      "minTime": 5,
+      "maxTime": 60,
+      "offset" :  0
+    },
+    {
+      "pointId": "HR01",
+      "type": "Humidity",
+      "readType": "dht",
+      "unit": "%",
+      "groveID": 4,
+      "delta": 1,
+      "checkValue": 0,
+      "value": 0,
+      "timestamp": 0,
+      "minTime": 5,
+      "maxTime": 60
+    },
+    {
+      "pointId": "SR01",
+      "type": "Sound",
+      "readType": "analog",
+      "unit": "dB",
+      "groveID": 1,
+      "delta": 10,
+      "checkValue": 0,
+      "value": 0,
+      "timestamp": 0,
+      "minTime": 5,
+      "maxTime": 60
+    },
+    {
+      "pointId": "LX01",
+      "type": "Light",
+      "readType": "analog",
+      "unit": "lux",
+      "groveID": 2,
+      "delta": 10,
+      "checkValue": 0,
+      "value": 0,
+      "timestamp": 0,
+      "minTime": 5,
+      "maxTime": 60
+    }
+  ],
+  "deviceId": "B101_DI000_01",
+  "connectionString": "HostName=dtu-test-hub.azure-devices.net;DeviceId=B101_DI000_01;SharedAccessKey=unNVM4WoIrDoMttY7N4FLyVavNaap3fDTFDB3MkEtPE="
+}
